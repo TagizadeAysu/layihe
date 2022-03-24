@@ -229,3 +229,75 @@ span{
 .section4_item p{
     font-size: calc(100vw/57.6);
 }
+.section5{
+    background-color: #EFEFEF;
+}
+.section5_about {
+    padding-top: 91px;
+    padding-bottom: 111px;
+}
+.section5_box{
+    margin-top: 34px;
+    width: 66%;
+    margin-left: 5px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.section5_box p{
+    font-size: 20px;
+    line-height: 150%;
+    width: 88.5%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.section5_box .user{
+    display:flex;
+    width: 100%;
+}
+.user img{
+    width: 24.02%;
+    margin: 10px 30px 29px 26px
+}
+.facebook{
+    width:75.8%;
+    margin-top: 40px;
+}
+.facebook p{
+    font-size: 30px;
+    line-height: 101.38%;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+}
+.facebook img{
+    width: 32px;
+    height: 31px;
+}
+.section6{
+    background-color:  #9DC9C8;
+}
+.section6_about{
+    padding-top: 179px;
+    padding-bottom: 185px;
+    font-size: 25px;
+}
+.section6_about h2{
+    margin-bottom: 54px;
+}
+.rub{
+    font-size: 80px;
+    height: 181px;
+}
+.section6_about_items{
+    position: relative;
+    top: -6px;
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    
+}
+.section6_item{
+    width: 44.7%;
+    font-size: 18px;
+}
