@@ -301,3 +301,76 @@ span{
     width: 44.7%;
     font-size: 18px;
 }
+footer{
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 375px;
+    background-color: #000000;
+    height: 390px;
+}
+.foot_icon img{
+    width:  115px;
+    height: 68px;
+}
+.foot_logo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.foot_icon ul{
+    text-decoration: none;
+    list-style: none;
+   
+}
+.foot_icon ul li{
+    display: inline;
+}
+.icon_ig img{
+    width: 33px;
+    height: 33px;
+    margin-right: 18px;
+}
+.icon_fb img{
+    width: 32px;
+    height: 32px;
+    margin-right: 21px;
+}
+.icon_vk img{
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+}
+.icon_wp img{
+    width: 34px;
+    height: 34px;
+    margin-right: 18px;
+}
+.foot_icon p{
+    margin-top: 146px;
+    font-size: 18px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color:#FFFFFF;
+}
+.foot_contact{
+    margin-top: 54px;
+    margin-right: 25px;
+}
+.foot_contact ul{
+    list-style: none;
+    font-size: 25px;
+}
+.foot_contact li{
+    margin-bottom: 23px;
+}
+.foot_contact .phone img{
+    width: 27px;
+    height: 27px;
+    margin-right: 22px;
+}
+.foot_contact .mail img{
+    width: 27px;
+    height: 18px;
+    margin-right: 22px;
+}
