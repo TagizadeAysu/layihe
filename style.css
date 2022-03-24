@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.header{
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 375px;
+}
+.head{
+    width: 83.5%;
+    margin: 0 auto;
+}
+.logo img{
+    margin-top: 21px;
+    width: 122px;
+    height: 66px;
+    margin-bottom: 100px;
+}
+.head_container_list {
+  list-style: none;
+  text-decoration: none;
+}
+.head_container_list li{
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 20px;
+}
+.li_item{
+    
+    width: 22px;
+    height: 21px;
+    display: inline;
+    margin-right: 8px;
+}
+.head_container_about{
+   display: flex; 
+   justify-content: space-between;
+}
+.head_container_about .head_about_paragraph{
+    width: 53%;
+}
+.head_container_about .head_image{
+    width: 25.5%;
+    margin-right: 17%;
+}
+.head_container_about .head_image img{
+    width: 100%;
+}
+.head_about_paragraph h1{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: calc(100vw/18);
+    margin-top: 29px;
+    line-height: 101.38%;
+    height: 190px;
+}
+.head_about_paragraph p{
+    width: 66%;
+    font-size: 20px;
+}
+.head_container_proverb{
+    margin-top: 67.62px;
+    margin-left: 24.1%;
+    margin-bottom: 173.38px;
+    width: 40.32%;
+    background: #1E4681;
+    border-radius: 5px;
+    color: #fff;
+
+}
+.head_container_proverb .proverb{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 19.26px 27px 22.12px;
+   line-height: 130%;
+}
+.head_container_proverb .author{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 18.5px;
+    padding-bottom: 1em;
+}
